@@ -1,0 +1,18 @@
+[
+  {
+    "name": "广东省",
+    "enName": "Guangdong",
+    "provinceName": "广东省"
+  },
+  {
+    "name": "浙江省",
+    "enName": "Zhejiang",
+    "provinceName": "浙江省",
+    "confirmedCount": 1352,
+    "suspectedCount": 0,
+    "curedCount": 1260,
+    "deadCount": 8,
+    "insickCount": 84,
+    "confirmedIncreased": 0
+  }
+]
