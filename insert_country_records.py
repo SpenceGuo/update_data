@@ -147,7 +147,7 @@ with open('by_area.json', 'r', encoding='utf8')as fp:
                 suspectedDayConfirmedRate = ''
 
             sql = "INSERT INTO country_records(confirmedCount, suspectedCount, curedCount, deadCount, seriousCount, suspectedIncreased, confirmedIncreased, curedIncreased, deadIncreased, seriousIncreased, updateTime, insickCount, lastUpdate, updateDate, seriousRate, seriousDayRate, suspectedAccum, suspectedDayProcessed, suspectedConfirmedCount, suspectedConfirmedRate, suspectedProcessedRate, suspectedDayConfirmedRate) VALUES(\'" + confirmedCount + "\',\'" + suspectedCount + "\',\'" + curedCount + "\',\'" + deadCount + "\',\'" + seriousCount + "\',\'" + suspectedIncreased + "\',\'" + confirmedIncreased + "\',\'" + curedIncreased + "\',\'" + deadIncreased + "\',\'" + seriousIncreased + "\',\'" + updateTime + "\',\'" + insickCount + "\',\'" + lastUpdate + "\',\'" + updateDate + "\',\'" + seriousRate + "\',\'" + seriousDayRate + "\',\'" + suspectedAccum + "\',\'" + suspectedDayProcessed + "\',\'" + suspectedConfirmedCount + "\',\'" + suspectedConfirmedRate + "\',\'" + suspectedProcessedRate + "\',\'" + suspectedDayConfirmedRate + "\')"
-            #print(sql)
+            print(sql)
             cursor.execute(sql)
             db.commit()
 
